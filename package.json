@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "cy:version": "cypress version",
-    "cy:open": "cypress open",
-    "cy:record": "cypress run --record --key b80aa610-8ac4-4db6-a3a6-e100fa091018",
-    "cy:run": "cypress run -b chrome",
-    "cy:headless": "cypress run"
+    "version": "cypress version",
+    "open": "cypress open",
+    "record": "cypress run --record --key b80aa610-8ac4-4db6-a3a6-e100fa091018",
+    "run": "cypress run -b chrome",
+    "test": "cypress run"
   },
   "author": "Mohd Nazim",
   "license": "ISC",
