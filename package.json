@@ -7,15 +7,13 @@
     "version": "cypress version",
     "open": "cypress open",
     "record": "cypress run --record --key b80aa610-8ac4-4db6-a3a6-e100fa091018",
-    "run": "cypress run -b chrome",
-    "test": "cypress run"
+    "chrome": "cypress run -b chrome",
+    "test": "cypress run --reporter junit"
   },
   "author": "Mohd Nazim",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^3.8.1",
-	"cypress-multi-reporters": "^1.2.4",
-	"mocha-junit-reporter": "^1.23.3"
+    "cypress": "^3.8.1"
   },
-  "keywords": []  
+  "keywords": []
 }
