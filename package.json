@@ -1,5 +1,6 @@
 {
   "name": "cypress-azure-pipeline",
+  "description": "This is a demo project for cypress-azure pipeline",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -13,9 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^3.8.1",
-    "cypress-form-data-with-file-upload": "^1.0.0",
-    "cypress-otp": "^1.0.2"
+	"cypress-multi-reporters": "^1.2.4",
+	"mocha-junit-reporter": "^1.23.3"
   },
-  "keywords": [],
-  "description": "This is a demo project for cypress-azure pipeline"
+  "keywords": []  
 }
