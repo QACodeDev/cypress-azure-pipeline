@@ -1,0 +1,21 @@
+{
+  "name": "cypress-azure-pipeline",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:version": "cypress version",
+    "cy:open": "cypress open",
+    "cy:record": "cypress run --record --key b80aa610-8ac4-4db6-a3a6-e100fa091018",
+    "cy:run": "cypress run -b chrome",
+    "cy:headless": "cypress run"
+  },
+  "author": "Mohd Nazim",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.8.1",
+    "cypress-form-data-with-file-upload": "^1.0.0",
+    "cypress-otp": "^1.0.2"
+  },
+  "keywords": [],
+  "description": "This is a demo project for cypress-azure pipeline"
+}
