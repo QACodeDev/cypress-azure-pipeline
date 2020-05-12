@@ -7,9 +7,9 @@
   "responseTimeout": 60000,
   "defaultCommandTimeout": 30000,
   "projectId": "o7w6kf",
-  "reporter": "mocha-junit-reporter",
+  "reporter": "junit",
   "reporterOptions": {
-	  "mochaFile": "cypress/reports/junit/test-results.[hash].xml",
-	  "testsuitesTitle": false
+	  "mochaFile": "cypress/reports/junit/test-result-[hash].xml",
+	  "toConsole": true
 	}
 }
